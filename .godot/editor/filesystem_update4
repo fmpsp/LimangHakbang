@@ -1,0 +1,5 @@
+res://default_env.tres
+res://assets/model/overWorld/test/World_Test00.tscn
+res://assets/model/overWorld/test/Cube.mesh
+res://assets/model/overWorld/test/OverworldObject2D.tscn
+res://assets/model/overWorld/test/Test-Tiles.tscn
