@@ -1,1 +1,14 @@
+CollisionShape3D
+Area3D
 DirectionalLight3D
+GridMap
+OmniLight3D
+MeshInstance3D
+MeshInstance2D
+StaticBody3D
+Timer
+Control
+Node2D
+Node3D
+CSGMesh3D
+CSGCombiner3D

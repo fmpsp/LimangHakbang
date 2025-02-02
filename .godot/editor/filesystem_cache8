@@ -1,101 +1,270 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1738052782
-default_env.tres::Environment::9132171691929517816::1738052750::0::1::::<><>::
-icon.png::CompressedTexture2D::9165240983002274070::1610340685::1737955083::1::::<><>::
-::res://addons/::1738035342
-::res://addons/Asset_Drawer/::1738035342
-AssetDrawerShortcut.tres::InputEventKey::2398203337745859933::1738035342::0::1::::<><>::
-FileSystem.gd::GDScript::-1::1738035342::0::1::::<>EditorPlugin<>::
-plugin.cfg::TextFile::-1::1738035342::0::1::::<><>::
-::res://addons/ridiculous_coding/::1737955083
-blip.gd::GDScript::-1::1737955056::0::1::::<>Node2D<>::
-blip.png::CompressedTexture2D::5404234201042340844::1610340685::1737955083::1::::<><>::
-blip.tscn::PackedScene::-1::1737955056::0::1::::<><>::res://addons/ridiculous_coding/blip.wav<>res://addons/ridiculous_coding/blip.gd<>res://addons/ridiculous_coding/blip.png<>res://addons/ridiculous_coding/font.tres
-blip.wav::AudioStreamWAV::6580728380468881877::1610340685::1737955083::1::::<><>::
-boom.gd::GDScript::-1::1737955056::0::1::::<>Node2D<>::
-boom.png::CompressedTexture2D::8402583938361291576::1610340685::1737955083::1::::<><>::
-boom.tscn::PackedScene::-1::1737955056::0::1::::<><>::res://addons/ridiculous_coding/boom.png<>res://addons/ridiculous_coding/boom.wav<>res://addons/ridiculous_coding/boom.gd<>res://addons/ridiculous_coding/font.tres
-boom.wav::AudioStreamWAV::6389414395039976601::1610340685::1737955083::1::::<><>::
-font.tres::FontFile::-1::1737955056::0::1::::<><>::res://addons/ridiculous_coding/GravityBold8.ttf
-GravityBold8.ttf::FontFile::8772782210815541112::1610340685::1737955082::1::::<><>::
-newline.gd::GDScript::-1::1737955056::0::1::::<>Node2D<>::
-newline.png::CompressedTexture2D::4108958775452318308::1610340685::1737955083::1::::<><>::
-newline.tscn::PackedScene::-1::1737955056::0::1::::<><>::res://addons/ridiculous_coding/newline.gd<>res://addons/ridiculous_coding/newline.png
-plugin.cfg::TextFile::-1::1610340685::0::1::::<><>::
-plugin.gd::GDScript::-1::1737955056::0::1::::<>EditorPlugin<>::
-::res://addons/sound_manager/::1738052783
-icon.png::CompressedTexture2D::3206411755603370533::1727432040::1737956234::1::::<><>::
-plugin.cfg::TextFile::-1::1727432040::0::1::::<><>::
-plugin.gd::GDScript::-1::1727432040::0::1::::<>EditorPlugin<>::
-README.md::TextFile::-1::1727432040::0::1::::<><>::
-SoundManager.json::JSON::-1::1610340685::0::1::::<><>::
-sound_manager.json::JSON::-1::1738052783::0::1::::<><>::
-::res://addons/sound_manager/dock/::1737956208
-SoundManagerDock.cfg::TextFile::-1::1727432040::0::1::::<><>::
-SoundManagerDock.gd::GDScript::-1::1727432040::0::1::::<>ScrollContainer<>::
-SoundManagerDock.tscn::PackedScene::4006205183153516962::1727432040::0::1::::<><>::res://addons/sound_manager/dock/SoundManagerDock.gd<>uid://dl0vqixpxa80t::::res://addons/sound_manager/dock/assets/slider_grabber_highlighted.svg<>uid://25dn21f8amun::::res://addons/sound_manager/dock/assets/slider_grabber.svg<>uid://b7c8ya4xhor0q::::res://addons/sound_manager/dock/assets/restore.svg
-::res://addons/sound_manager/dock/assets/::1737956234
-add_icon.svg::CompressedTexture2D::5136804707152512728::1727432040::1737956234::1::::<><>::
-folder_icon.svg::CompressedTexture2D::3947691300431764979::1727432040::1737956234::1::::<><>::
-remove_icon.svg::CompressedTexture2D::3929685423034644495::1727432040::1737956234::1::::<><>::
-restore.svg::CompressedTexture2D::4638639001287535654::1727432040::1737956234::1::::<><>::
-save_icon.svg::CompressedTexture2D::2076406491417662507::1727432040::1737956234::1::::<><>::
-slider_grabber.svg::CompressedTexture2D::1957236935714390165::1727432040::1737956234::1::::<><>::
-slider_grabber_highlighted.svg::CompressedTexture2D::7984252860929336697::1727432040::1737956234::1::::<><>::
-::res://addons/sound_manager/module/::1737956208
-README.md::TextFile::-1::1727432040::0::1::::<><>::
-SoundManager.tscn::PackedScene::1507814777301954509::1727432040::0::1::::<><>::res://addons/sound_manager/module/internal_scripts/SoundManager.gd
-::res://addons/sound_manager/module/internal_scripts/::1737956208
-SoundManager.gd::GDScript::-1::1727432040::0::1::::<>SoundManagerModule<>::
-SoundManager_config.gd::GDScript::-1::1727432040::0::1::::SoundManagerModule<>Node<>::
-Sounds.gd::GDScript::-1::1727432040::0::1::::<>AudioStreamPlayer<>::
-::res://addons/Todo_Manager/::1738052783
-ColourPicker.gd::GDScript::-1::1714268676::0::1::::<>HBoxContainer<>::
-Current.gd::GDScript::-1::1714268676::0::1::::<>Panel<>::
-Dock.gd::GDScript::-1::1714268676::0::1::::<>Control<>::
-Pattern.gd::GDScript::-1::1714268676::0::1::::<>HBoxContainer<>::
-plugin.cfg::TextFile::-1::1714268676::0::1::::<><>::
-plugin.gd::GDScript::-1::1714268676::0::1::::<>EditorPlugin<>::
-Project.gd::GDScript::-1::1714268676::0::1::::<>Panel<>::
-todo.cfg::TextFile::-1::1738052783::0::1::::<><>::
-todoItem_class.gd::GDScript::-1::1714268676::0::1::::<>RefCounted<>::
-todo_class.gd::GDScript::-1::1714268676::0::1::::<>RefCounted<>::
-::res://addons/Todo_Manager/doc/::1737956501
-example.gd::GDScript::-1::1714268676::0::1::::<>Node<>::
-::res://addons/Todo_Manager/doc/images/::1737956562
-example1.png::CompressedTexture2D::8063086250666186557::1714268676::1737956562::1::::<><>::
-example2.png::CompressedTexture2D::2013403647714411074::1714268676::1737956562::1::::<><>::
-Instruct1.png::CompressedTexture2D::5900502660264350862::1714268676::1737956562::1::::<><>::
-Instruct2.png::CompressedTexture2D::8248639218106975350::1714268676::1737956562::1::::<><>::
-Instruct3.png::CompressedTexture2D::60348085203428084::1714268676::1737956562::1::::<><>::
-Instruct4.png::CompressedTexture2D::6741568079234636235::1714268676::1737956562::1::::<><>::
-Instruct5.png::CompressedTexture2D::7729967787657570815::1714268676::1737956562::1::::<><>::
-TODO_Manager_Logo.png::CompressedTexture2D::7053535181959680987::1714268676::1737956562::1::::<><>::
-::res://addons/Todo_Manager/UI/::1737956501
-ColourPicker.tscn::PackedScene::2957809393656723737::1714268676::0::1::::<><>::res://addons/Todo_Manager/ColourPicker.gd
-Dock.tscn::PackedScene::4584442902745049483::1714268676::0::1::::<><>::res://addons/Todo_Manager/Dock.gd<>res://addons/Todo_Manager/Project.gd<>res://addons/Todo_Manager/Current.gd
-Pattern.tscn::PackedScene::4056048923411208166::1714268676::0::1::::<><>::res://addons/Todo_Manager/Pattern.gd
-::res://assets/::1610340685
-::res://assets/model/::1610340685
-::res://assets/model/overWorld/::1610340685
-::res://assets/model/overWorld/test/::1738052750
-cube.glb::PackedScene::6233359055931624643::1610340685::1738035315::1::::<><>::uid://draoh0k8u86rk::::res://assets/model/overWorld/test/Material.material
-Cube.mesh::ArrayMesh::1161476077826420787::1738052624::0::1::::<><>::
-Material.material::StandardMaterial3D::8353336261441145392::1738025260::0::1::::<><>::
-OverworldObject2D.tscn::PackedScene::5733729902954545211::1738052676::0::1::::<><>::uid://culo5xo833wqp::::res://assets/sprite/overWorld/npcDummy/LeafGreenTest.png<>res://code/sceneOverworld/OverworldObject2D.gd<>uid://boa3c0qwy7xmy::::res://assets/sound/common/noMove.wav
-ramp.glb::PackedScene::7820818428630024132::1610340685::1738035315::1::::<><>::
-Ramp.mesh::ArrayMesh::4844409996806540322::1738025260::0::1::::<><>::
-Test-Tiles.tscn::PackedScene::1289507306520600717::1738052676::0::1::::<><>::uid://cbawyv7kg7bs1::::res://assets/model/overWorld/test/Ramp.mesh<>uid://qsvlus1gykx4::::res://assets/model/overWorld/test/Cube.mesh
-World_Test00.tscn::PackedScene::8640142009776193754::1738052676::0::1::::<><>::uid://cnxpxua3472hr::::res://assets/model/overWorld/test/OverworldObject2D.tscn
-::res://assets/sound/::1610340685
-::res://assets/sound/common/::1737955083
-noMove.wav::AudioStreamWAV::3370769480844385612::1610340685::1737955083::1::::<><>::
-::res://assets/sprite/::1610340685
-::res://assets/sprite/overWorld/::1610340685
-::res://assets/sprite/overWorld/npcDummy/::1737955192
-LeafGreenTest.png::CompressedTexture2D::6200231238359612743::1610340685::1737955192::1::::<><>::
-TemplateKinda.png::CompressedTexture2D::1887059801303905211::1610340685::1737955083::1::::<><>::
-::res://code/::1738026309
-::res://code/sceneOverworld/::1738052739
-gridmapCollisionDef.gd::GDScript::-1::1737955056::0::1::::GridmapCollisionHelper<>RefCounted<>::
-OverworldObject2D.gd::GDScript::-1::1738052739::0::1::::OverworldObject2D<>CharacterBody3D<>::
+::res://::1738496978
+default_env.tres::Environment::9132171691929517816::1738496811::0::1::::<><>::
+icon.png::CompressedTexture2D::7055213829387371005::1738079372::1738079549::1::::<><>::
+README.md::TextFile::-1::1738079372::0::1::::<><>::
+::res://addons/::1738382882
+::res://addons/Asset_Drawer/::1738079372
+AssetDrawerShortcut.tres::InputEventKey::2398203337745859933::1738079372::0::1::::<><>::
+FileSystem.gd::GDScript::-1::1738079372::0::1::::<>EditorPlugin<>::
+plugin.cfg::TextFile::-1::1738079372::0::1::::<><>::
+::res://addons/csgtomeshinstance/::1660578313
+plugin.cfg::TextFile::-1::1660578313::0::1::::<><>::
+plugin.gd::GDScript::-1::1660578313::0::1::::<>EditorPlugin<>::
+plugin_button.gd::GDScript::-1::1660578313::0::1::::PluginButton<>Button<>::
+plugin_button.tscn::PackedScene::7994402270695267760::1660578313::0::1::::<><>::res://addons/csgtomeshinstance/plugin_button.gd
+::res://addons/ridiculous_coding/::1738079553
+blip.gd::GDScript::-1::1738079372::0::1::::<>Node2D<>::
+blip.png::CompressedTexture2D::6522491750812507745::1738079372::1738079552::1::::<><>::
+blip.tscn::PackedScene::-1::1738079372::0::1::::<><>::res://addons/ridiculous_coding/blip.wav<>res://addons/ridiculous_coding/blip.gd<>res://addons/ridiculous_coding/blip.png<>res://addons/ridiculous_coding/font.tres
+blip.wav::AudioStreamWAV::1164905088574665898::1738079372::1738079553::1::::<><>::
+boom.gd::GDScript::-1::1738079372::0::1::::<>Node2D<>::
+boom.png::CompressedTexture2D::359255995984132332::1738079372::1738079552::1::::<><>::
+boom.tscn::PackedScene::-1::1738079372::0::1::::<><>::res://addons/ridiculous_coding/boom.png<>res://addons/ridiculous_coding/boom.wav<>res://addons/ridiculous_coding/boom.gd<>res://addons/ridiculous_coding/font.tres
+boom.wav::AudioStreamWAV::625502111554954465::1738079372::1738079553::1::::<><>::
+font.tres::FontFile::-1::1738079372::0::1::::<><>::res://addons/ridiculous_coding/GravityBold8.ttf
+GravityBold8.ttf::FontFile::5025581305133452496::1738079372::1738079549::1::::<><>::
+newline.gd::GDScript::-1::1738079372::0::1::::<>Node2D<>::
+newline.png::CompressedTexture2D::5595403743166447484::1738079372::1738079552::1::::<><>::
+newline.tscn::PackedScene::-1::1738079372::0::1::::<><>::res://addons/ridiculous_coding/newline.gd<>res://addons/ridiculous_coding/newline.png
+plugin.cfg::TextFile::-1::1738079372::0::1::::<><>::
+plugin.gd::GDScript::-1::1738079372::0::1::::<>EditorPlugin<>::
+::res://addons/sound_manager/::1738486653
+icon.png::CompressedTexture2D::5574113831869330323::1738079372::1738079551::1::::<><>::
+plugin.cfg::TextFile::-1::1738079372::0::1::::<><>::
+plugin.gd::GDScript::-1::1738079372::0::1::::<>EditorPlugin<>::
+README.md::TextFile::-1::1738079372::0::1::::<><>::
+SoundManager.json::JSON::-1::1738079372::0::1::::<><>::
+sound_manager.json::JSON::-1::1738486653::0::1::::<><>::
+::res://addons/sound_manager/dock/::1738079372
+SoundManagerDock.cfg::TextFile::-1::1738079372::0::1::::<><>::
+SoundManagerDock.gd::GDScript::-1::1738079372::0::1::::<>ScrollContainer<>::
+SoundManagerDock.tscn::PackedScene::4006205183153516962::1738079372::0::1::::<><>::res://addons/sound_manager/dock/SoundManagerDock.gd<>uid://dl0vqixpxa80t::::res://addons/sound_manager/dock/assets/slider_grabber_highlighted.svg<>uid://25dn21f8amun::::res://addons/sound_manager/dock/assets/slider_grabber.svg<>uid://b7c8ya4xhor0q::::res://addons/sound_manager/dock/assets/restore.svg
+::res://addons/sound_manager/dock/assets/::1738079551
+add_icon.svg::CompressedTexture2D::5433576260587176323::1738079372::1738079551::1::::<><>::
+folder_icon.svg::CompressedTexture2D::1298362577284385034::1738079372::1738079551::1::::<><>::
+remove_icon.svg::CompressedTexture2D::3158907318478482243::1738079372::1738079551::1::::<><>::
+restore.svg::CompressedTexture2D::2599036390654655925::1738079372::1738079551::1::::<><>::
+save_icon.svg::CompressedTexture2D::6029044148914318234::1738079372::1738079551::1::::<><>::
+slider_grabber.svg::CompressedTexture2D::1457328382631641030::1738079372::1738079551::1::::<><>::
+slider_grabber_highlighted.svg::CompressedTexture2D::8511006880507683533::1738079372::1738079551::1::::<><>::
+::res://addons/sound_manager/module/::1738079372
+README.md::TextFile::-1::1738079372::0::1::::<><>::
+SoundManager.tscn::PackedScene::1507814777301954509::1738079372::0::1::::<><>::res://addons/sound_manager/module/internal_scripts/SoundManager.gd
+::res://addons/sound_manager/module/internal_scripts/::1738079372
+SoundManager.gd::GDScript::-1::1738079372::0::1::::<>SoundManagerModule<>::
+SoundManager_config.gd::GDScript::-1::1738079372::0::1::::SoundManagerModule<>Node<>::
+Sounds.gd::GDScript::-1::1738079372::0::1::::<>AudioStreamPlayer<>::
+::res://addons/Todo_Manager/::1738496975
+ColourPicker.gd::GDScript::-1::1738079372::0::1::::<>HBoxContainer<>::
+Current.gd::GDScript::-1::1738079372::0::1::::<>Panel<>::
+Dock.gd::GDScript::-1::1738079372::0::1::::<>Control<>::
+Pattern.gd::GDScript::-1::1738079372::0::1::::<>HBoxContainer<>::
+plugin.cfg::TextFile::-1::1738079372::0::1::::<><>::
+plugin.gd::GDScript::-1::1738079372::0::1::::<>EditorPlugin<>::
+Project.gd::GDScript::-1::1738079372::0::1::::<>Panel<>::
+todo.cfg::TextFile::-1::1738496975::0::1::::<><>::
+todoItem_class.gd::GDScript::-1::1738079372::0::1::::<>RefCounted<>::
+todo_class.gd::GDScript::-1::1738079372::0::1::::<>RefCounted<>::
+::res://addons/Todo_Manager/doc/::1738079372
+example.gd::GDScript::-1::1738079372::0::1::::<>Node<>::
+::res://addons/Todo_Manager/doc/images/::1738079551
+example1.png::CompressedTexture2D::4606919879496274424::1738079372::1738079550::1::::<><>::
+example2.png::CompressedTexture2D::7169281039566247613::1738079372::1738079551::1::::<><>::
+Instruct1.png::CompressedTexture2D::4633971124123076941::1738079372::1738079551::1::::<><>::
+Instruct2.png::CompressedTexture2D::3247078935930983877::1738079372::1738079550::1::::<><>::
+Instruct3.png::CompressedTexture2D::3381690984473796586::1738079372::1738079551::1::::<><>::
+Instruct4.png::CompressedTexture2D::2569389600713260728::1738079372::1738079549::1::::<><>::
+Instruct5.png::CompressedTexture2D::6884102560459110467::1738079372::1738079549::1::::<><>::
+TODO_Manager_Logo.png::CompressedTexture2D::8755766020598896858::1738079372::1738079549::1::::<><>::
+::res://addons/Todo_Manager/UI/::1738079372
+ColourPicker.tscn::PackedScene::2957809393656723737::1738079372::0::1::::<><>::res://addons/Todo_Manager/ColourPicker.gd
+Dock.tscn::PackedScene::4584442902745049483::1738079372::0::1::::<><>::res://addons/Todo_Manager/Dock.gd<>res://addons/Todo_Manager/Project.gd<>res://addons/Todo_Manager/Current.gd
+Pattern.tscn::PackedScene::4056048923411208166::1738079372::0::1::::<><>::res://addons/Todo_Manager/Pattern.gd
+::res://assets/::1738495452
+::res://assets/model/::1738496974
+::res://assets/model/overworld/::1738493121
+::res://assets/model/overworld/entities/::1738493108
+::res://assets/model/overworld/environments/::1738495439
+::res://assets/model/overworld/environments/Kenney/::1738495328
+::res://assets/model/overworld/environments/Kenney/GLB format/::1738495344
+arrow.glb::PackedScene::7031103869040984909::1738495326::1738495339::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+arrows.glb::PackedScene::1688589156008910598::1738495326::1738495339::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+barrel.glb::PackedScene::5116238522531295079::1738495326::1738495339::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-corner-low.glb::PackedScene::4081371737653100752::1738495326::1738495339::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-corner-overhang-low.glb::PackedScene::3915472805852366448::1738495326::1738495339::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-corner-overhang.glb::PackedScene::5248998291456162053::1738495327::1738495339::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-corner.glb::PackedScene::3094504231955155818::1738495327::1738495339::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-curve-half.glb::PackedScene::2897252405992691902::1738495327::1738495339::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-curve-low.glb::PackedScene::6489353501926426777::1738495327::1738495339::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-curve.glb::PackedScene::5044292440633862724::1738495327::1738495339::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-edge.glb::PackedScene::4996411371372290976::1738495327::1738495340::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-hexagon.glb::PackedScene::4405693858293630220::1738495327::1738495340::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-large-slope-narrow.glb::PackedScene::8055609523304859341::1738495327::1738495340::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-large-slope-steep-narrow.glb::PackedScene::3772955916976402848::1738495327::1738495340::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-large-slope-steep.glb::PackedScene::3215066634998314132::1738495327::1738495340::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-large-slope.glb::PackedScene::6413690832428033647::1738495327::1738495340::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-large-tall.glb::PackedScene::8749665619704075661::1738495327::1738495340::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-large.glb::PackedScene::8104310666650287137::1738495327::1738495340::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-long.glb::PackedScene::7017924801724542447::1738495327::1738495337::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-low-hexagon.glb::PackedScene::6195338151164051814::1738495327::1738495337::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-low-large.glb::PackedScene::8760535826272411138::1738495327::1738495337::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-low-long.glb::PackedScene::8099806072467730795::1738495327::1738495337::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-low-narrow.glb::PackedScene::242288424715331971::1738495327::1738495337::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-low.glb::PackedScene::8842845100221485635::1738495327::1738495337::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-narrow.glb::PackedScene::1637098688861048440::1738495327::1738495337::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-corner.glb::PackedScene::2425750298055648133::1738495327::1738495337::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-edge.glb::PackedScene::8168398671023132062::1738495327::1738495337::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-hexagon.glb::PackedScene::1970920500778958981::1738495327::1738495338::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-large-slope-narrow.glb::PackedScene::623955491885614630::1738495327::1738495338::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-large-slope-steep-narrow.glb::PackedScene::3250393371748034478::1738495327::1738495338::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-large-slope-steep.glb::PackedScene::1438913132403408972::1738495327::1738495338::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-large-slope.glb::PackedScene::6175242277609255859::1738495327::1738495338::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-large-tall.glb::PackedScene::3965183021880447907::1738495327::1738495338::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-large.glb::PackedScene::1516564613000610761::1738495327::1738495338::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-long.glb::PackedScene::4393517310377269624::1738495327::1738495338::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-low-hexagon.glb::PackedScene::689157743221589630::1738495327::1738495338::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-low-large.glb::PackedScene::6648054752533800077::1738495327::1738495342::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-low-long.glb::PackedScene::5405601823410314415::1738495327::1738495342::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-low-narrow.glb::PackedScene::2414260302212115115::1738495327::1738495343::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-low.glb::PackedScene::7260036882989922505::1738495327::1738495343::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass-overhang-narrow.glb::PackedScene::5005803301626528519::1738495327::1738495343::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-grass.glb::PackedScene::7627364246459483344::1738495327::1738495343::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-moving-blue.glb::PackedScene::338806929485066947::1738495327::1738495343::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-moving-large.glb::PackedScene::4215413629775268210::1738495327::1738495343::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-moving.glb::PackedScene::6793178692699213974::1738495327::1738495343::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-corner-low.glb::PackedScene::3818826271915506947::1738495327::1738495343::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-corner-overhang-low.glb::PackedScene::7092765571335517619::1738495327::1738495343::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-corner-overhang.glb::PackedScene::5020899868611162093::1738495327::1738495344::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-corner.glb::PackedScene::7217338453888968729::1738495327::1738495344::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-curve-half.glb::PackedScene::8549103875902728938::1738495327::1738495344::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-curve-low.glb::PackedScene::5559329453037646050::1738495327::1738495344::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-curve.glb::PackedScene::6170933975914653811::1738495327::1738495344::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-edge.glb::PackedScene::2126340572374062367::1738495327::1738495344::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-hexagon.glb::PackedScene::3980767195316925636::1738495327::1738495344::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-large-slope-narrow.glb::PackedScene::1439931986974510779::1738495327::1738495340::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-large-slope-steep-narrow.glb::PackedScene::4593062655270523610::1738495327::1738495341::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-large-slope-steep.glb::PackedScene::7548094811320216604::1738495327::1738495341::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-large-slope.glb::PackedScene::5038932808775487271::1738495327::1738495341::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-large-tall.glb::PackedScene::2215137090850843281::1738495327::1738495341::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-large.glb::PackedScene::8800788564438634309::1738495327::1738495341::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-long.glb::PackedScene::2803229273015550289::1738495327::1738495341::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-low-hexagon.glb::PackedScene::6282391349054512095::1738495327::1738495341::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-low-large.glb::PackedScene::5822012271699494788::1738495327::1738495341::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-low-long.glb::PackedScene::665593774274566548::1738495327::1738495341::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-low-narrow.glb::PackedScene::2677566152561726753::1738495327::1738495341::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-low.glb::PackedScene::4127120004139005476::1738495327::1738495342::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-narrow.glb::PackedScene::6628276864761222664::1738495327::1738495342::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-corner.glb::PackedScene::1347381253820935771::1738495327::1738495342::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-edge.glb::PackedScene::3001544171017782004::1738495327::1738495342::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-hexagon.glb::PackedScene::2561692417343725612::1738495327::1738495342::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-large-slope-narrow.glb::PackedScene::336207222620210979::1738495327::1738495342::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-large-slope-steep-narrow.glb::PackedScene::194325385668222061::1738495327::1738495342::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-large-slope-steep.glb::PackedScene::3385046841856810283::1738495327::1738495331::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-large-slope.glb::PackedScene::1570250664628215500::1738495327::1738495331::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-large-tall.glb::PackedScene::4363531732688427038::1738495327::1738495331::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-large.glb::PackedScene::558839175273788627::1738495327::1738495331::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-long.glb::PackedScene::7039396371843257625::1738495327::1738495331::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-low-hexagon.glb::PackedScene::9111965106575858887::1738495327::1738495331::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-low-large.glb::PackedScene::5047247737379567801::1738495327::1738495332::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-low-long.glb::PackedScene::1006867182079015145::1738495327::1738495332::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-low-narrow.glb::PackedScene::5671133138948315360::1738495327::1738495332::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-low.glb::PackedScene::3418969226206697077::1738495327::1738495332::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow-overhang-narrow.glb::PackedScene::1673347350691053828::1738495327::1738495332::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+block-snow.glb::PackedScene::5491177874862642712::1738495327::1738495332::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+bomb.glb::PackedScene::1846110133755138220::1738495327::1738495332::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+button-round.glb::PackedScene::2435542194628873205::1738495327::1738495332::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+button-square.glb::PackedScene::6500099774299468511::1738495327::1738495332::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+chest.glb::PackedScene::1049052452555921780::1738495327::1738495332::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+coin-bronze.glb::PackedScene::4147271260774462143::1738495327::1738495333::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+coin-gold.glb::PackedScene::5973128766354083093::1738495327::1738495333::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+coin-silver.glb::PackedScene::5524895164341737293::1738495327::1738495329::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+crate-item-strong.glb::PackedScene::3307776125052420703::1738495327::1738495329::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+crate-item.glb::PackedScene::7733116593899234738::1738495327::1738495329::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+crate-strong.glb::PackedScene::2692716035577193658::1738495327::1738495329::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+crate.glb::PackedScene::4090897251430402372::1738495327::1738495329::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+door-large-open.glb::PackedScene::234636413042614438::1738495327::1738495330::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+door-open.glb::PackedScene::937939324353448760::1738495327::1738495330::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+door-rotate-large.glb::PackedScene::128800577341031051::1738495327::1738495330::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+door-rotate.glb::PackedScene::3953198912285643777::1738495327::1738495330::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+fence-broken.glb::PackedScene::4007294921684774683::1738495327::1738495330::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+fence-corner-curved.glb::PackedScene::7064579598508074754::1738495327::1738495330::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+fence-corner.glb::PackedScene::5064277901203288345::1738495327::1738495330::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+fence-low-broken.glb::PackedScene::598270630699405370::1738495327::1738495330::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+fence-low-corner-curved.glb::PackedScene::7871112001864616950::1738495328::1738495330::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+fence-low-corner.glb::PackedScene::4339144290267793754::1738495328::1738495331::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+fence-low-straight.glb::PackedScene::1181548403412759832::1738495328::1738495331::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+fence-straight.glb::PackedScene::3667385721016572052::1738495328::1738495331::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+flag.glb::PackedScene::1978926598636647087::1738495328::1738495335::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+flowers-tall.glb::PackedScene::2659634801197707631::1738495328::1738495335::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+flowers.glb::PackedScene::5995989932507236066::1738495328::1738495335::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+grass.glb::PackedScene::4255733493735738161::1738495328::1738495335::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+heart.glb::PackedScene::2812853642956897258::1738495328::1738495335::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+hedge-corner.glb::PackedScene::1324872890144951246::1738495328::1738495335::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+hedge.glb::PackedScene::7607945926329144742::1738495328::1738495335::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+jewel.glb::PackedScene::7019307199890326281::1738495328::1738495335::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+key.glb::PackedScene::4853979172721048162::1738495328::1738495336::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+ladder-broken.glb::PackedScene::7325137092317477983::1738495328::1738495336::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+ladder-long.glb::PackedScene::2129568075951153679::1738495328::1738495336::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+ladder.glb::PackedScene::5217035861193294835::1738495328::1738495336::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+lever.glb::PackedScene::8512176658063705524::1738495328::1738495336::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+lock.glb::PackedScene::3657379209159656556::1738495328::1738495336::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+mushrooms.glb::PackedScene::4053019044902611748::1738495328::1738495336::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+plant.glb::PackedScene::4271688120080938909::1738495328::1738495336::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+platform-fortified.glb::PackedScene::2628658019550201525::1738495328::1738495336::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+platform-overhang.glb::PackedScene::1416881580189350377::1738495328::1738495337::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+platform-ramp.glb::PackedScene::8267162410167200023::1738495328::1738495333::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+platform.glb::PackedScene::971862869844689070::1738495328::1738495333::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+poles.glb::PackedScene::6617771303466403175::1738495328::1738495333::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+rocks.glb::PackedScene::806182569762469703::1738495328::1738495333::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+saw.glb::PackedScene::9034781002965344136::1738495328::1738495333::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+sign.glb::PackedScene::4017324262012509164::1738495328::1738495333::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+spike-block-wide.glb::PackedScene::702861928765463980::1738495328::1738495333::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+spike-block.glb::PackedScene::2282039297343484848::1738495328::1738495333::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+stones.glb::PackedScene::7590439874087298634::1738495328::1738495334::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+trap-spikes-large.glb::PackedScene::7494322676148847039::1738495328::1738495334::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+trap-spikes.glb::PackedScene::5883108944399578496::1738495328::1738495334::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+tree-pine-small.glb::PackedScene::1161084053810343352::1738495328::1738495334::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+tree-pine-snow-small.glb::PackedScene::8066855763219133394::1738495328::1738495334::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+tree-pine-snow.glb::PackedScene::111532497830008456::1738495328::1738495334::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+tree-pine.glb::PackedScene::1930091727609470869::1738495328::1738495334::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+tree-snow.glb::PackedScene::8178684818246887130::1738495328::1738495334::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+tree.glb::PackedScene::6213424539051538304::1738495328::1738495335::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+::res://assets/model/overworld/environments/Kenney/GLB format/Textures/::1738495345
+colormap.png::CompressedTexture2D::7967566740278032477::1738495328::1738495345::1::::<><>::
+::res://assets/model/overworld/environments/Kenney/Textures/::1738495329
+variation-a.png::CompressedTexture2D::6206052283774139991::1738495328::1738495329::1::::<><>::
+::res://assets/model/overworld/test/::1738496807
+cube.glb::PackedScene::305537315588753229::1738079372::1738493128::1::::<><>::
+Cube.mesh::ArrayMesh::1161476077826420787::1738381079::0::1::::<><>::
+Material.material::StandardMaterial3D::8353336261441145392::1738079372::0::1::::<><>::
+ramp.glb::PackedScene::4121184080444731107::1738079372::1738493128::1::::<><>::
+Ramp.mesh::ArrayMesh::4844409996806540322::1738079372::0::1::::<><>::
+standard-6.tres::MeshLibrary::2560151334299556548::1738496807::0::1::::<><>::uid://hp8wj2uk314i::::res://assets/model/textures/texture.png<>uid://chpj1e5bt15lp::::res://assets/model/textures/wall.png<>uid://bf363i7n72vp0::::res://assets/model/textures/door.png
+::res://assets/model/textures/::1738496978
+door.png::CompressedTexture2D::2797100178257085923::1738496362::1738496446::1::::<><>::
+housewall.png::CompressedTexture2D::4085190440300879186::1738496972::1738496990::1::::<><>::
+texture.png::CompressedTexture2D::524331035347398282::1738494426::1738494493::1::::<><>::
+wall.png::CompressedTexture2D::5295722079249166749::1738494755::1738494795::1::::<><>::
+::res://assets/sound/::1738079372
+::res://assets/sound/common/::1738079553
+noMove.wav::AudioStreamWAV::2356156869107991217::1738079372::1738079553::1::::<><>::
+::res://assets/sprite/::1738493179
+::res://assets/sprite/overworld/::1738493187
+player.png::CompressedTexture2D::16616547751989447::1738489876::1738493187::1::::<><>::
+::res://code/::1738496046
+kenneyplatformer.tres::MeshLibrary::2642629269412014842::1738496046::0::1::::<><>::uid://dlrswpd86e5dp::::res://assets/model/overworld/environments/Kenney/GLB format/Textures/colormap.png
+::res://code/overworld/::1738493501
+entry.gd::GDScript::-1::1738493501::0::1::::<>Area3D<>::
+exit.gd::GDScript::-1::1738493495::0::1::::<>Area3D<>::
+gridmapCollisionDef.gd::GDScript::-1::1738424445::0::1::::GridmapCollisionHelper<>RefCounted<>::
+OverworldObject2D.gd::GDScript::-1::1738493365::0::1::::OverworldObject2D<>CharacterBody3D<>::
+::res://code/shaders/::1738496811
+pixelart.gdshader::Shader::-1::1738496811::0::1::::<><>::
+::res://scenes/::1738496811
+kenneyplatformer.tscn::PackedScene::1508572319262602251::1738496724::0::1::::<><>::uid://c7f6ivahx8mnl::::res://assets/model/overworld/environments/Kenney/GLB format/arrow.glb<>uid://yb721dk6u1xa::::res://assets/model/overworld/environments/Kenney/GLB format/arrows.glb<>uid://ce5lx3ldf7yl8::::res://assets/model/overworld/environments/Kenney/GLB format/barrel.glb<>uid://byfbujh7vhesu::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-corner-low.glb<>uid://bv1xjanycriv5::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-corner-overhang-low.glb<>uid://cg1wh8vlubkhh::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-corner-overhang.glb<>uid://bkdabdw27jwv7::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-corner.glb<>uid://bhjplal6p0a4m::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-curve-half.glb<>uid://cypqx651rloq0::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-curve-low.glb<>uid://cd4q03ab078l1::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-curve.glb<>uid://cdgkfvdathkro::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-edge.glb<>uid://b31fetdjcynp1::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-hexagon.glb<>uid://dm1gyg75mjcdx::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-large-slope-narrow.glb<>uid://bt0wbd25xv2im::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-large-slope-steep-narrow.glb<>uid://bl2nxbqlqb5m3::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-large-slope-steep.glb<>uid://cxm3sy54glf1p::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-large-slope.glb<>uid://dwwnyj4lwkbyj::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-large-tall.glb<>uid://dnp12vnohbfif::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-large.glb<>uid://c68sgw0t8yh4j::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-long.glb<>uid://cujckxhka1s3w::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-low-hexagon.glb<>uid://dw2w0lmr58cwg::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-low-large.glb<>uid://dnnuvf0lunh1t::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-low-long.glb<>uid://dpmpp6upp5kp::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-low-narrow.glb<>uid://dx8smqcp6qkrj::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-low.glb<>uid://xla1nkv8heaa::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-narrow.glb<>uid://batb0uqailwn2::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-corner.glb<>uid://dom3lkugwqlco::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-edge.glb<>uid://3cy1jh6ej1wj::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-hexagon.glb<>uid://i5ipq5nal0ri::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-large-slope-narrow.glb<>uid://bmkrreta42431::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-large-slope-steep-narrow.glb<>uid://uraxos6qrc4c::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-large-slope-steep.glb<>uid://ct8llq3utv1sp::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-large-slope.glb<>uid://bwq08qynvat4n::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-large-tall.glb<>uid://vuvuk3g0muu8::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-large.glb<>uid://b3uit87wf5ev5::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-long.glb<>uid://j23len6dxahi::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-low-hexagon.glb<>uid://c1ymqw8411cjd::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-low-large.glb<>uid://cjarqb63nl0c6::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-low-long.glb<>uid://banqrqx6rg5cp::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-low-narrow.glb<>uid://dbo20nit3thsr::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-low.glb<>uid://cdk334p6a3mn4::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass-overhang-narrow.glb<>uid://dgw0tsowjdx1y::::res://assets/model/overworld/environments/Kenney/GLB format/block-grass.glb<>uid://e3edoldh2jjf::::res://assets/model/overworld/environments/Kenney/GLB format/block-moving-blue.glb<>uid://b1b8incqe7cbi::::res://assets/model/overworld/environments/Kenney/GLB format/block-moving-large.glb<>uid://c31wwpvfncg67::::res://assets/model/overworld/environments/Kenney/GLB format/block-moving.glb<>uid://bun4rmo7ihgqt::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-corner-low.glb<>uid://c8b12vqec5iln::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-corner-overhang-low.glb<>uid://cdsfqtj17myqn::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-corner-overhang.glb<>uid://da3erln5tt4kj::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-corner.glb<>uid://dt2iqyrtin307::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-curve-half.glb<>uid://clg8lxrg7jvf3::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-curve-low.glb<>uid://ct6im7o1d5o72::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-curve.glb<>uid://5karvpw0r5ap::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-edge.glb<>uid://bwykwifecwcqm::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-hexagon.glb<>uid://urrp7xhkdhcd::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-large-slope-narrow.glb<>uid://b6o6cn61de515::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-large-slope-steep-narrow.glb<>uid://dfsmavxa7v5q3::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-large-slope-steep.glb<>uid://cd15qtfp1fmh8::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-large-slope.glb<>uid://6ta8p18xornt::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-large-tall.glb<>uid://dxnfx4lk0kfcn::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-large.glb<>uid://bf651nyj8a7ir::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-long.glb<>uid://cvrickg6hmrop::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-low-hexagon.glb<>uid://co7hxrnbmwci3::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-low-large.glb<>uid://jqoh5pdb1qka::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-low-long.glb<>uid://befbegttrlc5v::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-low-narrow.glb<>uid://by2hcfnl27bnw::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-low.glb<>uid://c1o10s2jxc6mu::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-narrow.glb<>uid://tgxf4j3nvvy6::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-corner.glb<>uid://bi0782a28f3wa::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-edge.glb<>uid://bcq5x2a0alvvw::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-hexagon.glb<>uid://e14jwd5l7qul::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-large-slope-narrow.glb<>uid://c1ermm8bpd3b::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-large-slope-steep-narrow.glb<>uid://boh0hylarjpvn::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-large-slope-steep.glb<>uid://wmv2fxcp2yt5::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-large-slope.glb<>uid://b3fyy3asgi4cg::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-large-tall.glb<>uid://h7x88rcqrhqp::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-large.glb<>uid://c7j63hhq8gaer::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-long.glb<>uid://d225y7slo44fb::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-low-hexagon.glb<>uid://cd56oylwkvwxl::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-low-large.glb<>uid://oly7qonvyssn::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-low-long.glb<>uid://cm2ey71nn45ps::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-low-narrow.glb<>uid://boyf6nyww0edx::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-low.glb<>uid://x3t10ce7ri0k::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow-overhang-narrow.glb<>uid://ckh75rktr1niu::::res://assets/model/overworld/environments/Kenney/GLB format/block-snow.glb<>uid://1kjft2bq2wme::::res://assets/model/overworld/environments/Kenney/GLB format/bomb.glb<>uid://bax2a24s483bl::::res://assets/model/overworld/environments/Kenney/GLB format/button-round.glb<>uid://cyuxxt2rab8wh::::res://assets/model/overworld/environments/Kenney/GLB format/button-square.glb<>uid://o7f0gfsadtl1::::res://assets/model/overworld/environments/Kenney/GLB format/chest.glb<>uid://b0c77mhh20dtv::::res://assets/model/overworld/environments/Kenney/GLB format/coin-bronze.glb<>uid://crdos8fo4r7yn::::res://assets/model/overworld/environments/Kenney/GLB format/coin-gold.glb<>uid://ckykhl46va678::::res://assets/model/overworld/environments/Kenney/GLB format/coin-silver.glb<>uid://bnekubqacadbr::::res://assets/model/overworld/environments/Kenney/GLB format/crate-item-strong.glb<>uid://dif8khma74vo1::::res://assets/model/overworld/environments/Kenney/GLB format/crate-item.glb<>uid://bemmv0qt0s23w::::res://assets/model/overworld/environments/Kenney/GLB format/crate-strong.glb<>uid://byjwqk6vnrtyq::::res://assets/model/overworld/environments/Kenney/GLB format/crate.glb<>uid://dlwosegevwbe::::res://assets/model/overworld/environments/Kenney/GLB format/door-large-open.glb<>uid://nmlyur31n6oy::::res://assets/model/overworld/environments/Kenney/GLB format/door-open.glb<>uid://b3nldwixlg6n::::res://assets/model/overworld/environments/Kenney/GLB format/door-rotate-large.glb<>uid://bwk7uxpdrl2th::::res://assets/model/overworld/environments/Kenney/GLB format/door-rotate.glb<>uid://bxdftdsn4t3xv::::res://assets/model/overworld/environments/Kenney/GLB format/fence-broken.glb<>uid://c7weugqjal5ek::::res://assets/model/overworld/environments/Kenney/GLB format/fence-corner-curved.glb<>uid://ceff6gg8iuarx::::res://assets/model/overworld/environments/Kenney/GLB format/fence-corner.glb<>uid://ir2ou68bddqg::::res://assets/model/overworld/environments/Kenney/GLB format/fence-low-broken.glb<>uid://dke3cg1pmw263::::res://assets/model/overworld/environments/Kenney/GLB format/fence-low-corner-curved.glb<>uid://b226cp2xox5uc::::res://assets/model/overworld/environments/Kenney/GLB format/fence-low-corner.glb<>uid://q3l6uuekwu45::::res://assets/model/overworld/environments/Kenney/GLB format/fence-low-straight.glb<>uid://bsirko54bip8g::::res://assets/model/overworld/environments/Kenney/GLB format/fence-straight.glb<>uid://3guvqsl5cifv::::res://assets/model/overworld/environments/Kenney/GLB format/flag.glb<>uid://bd5l2c4q43c8v::::res://assets/model/overworld/environments/Kenney/GLB format/flowers-tall.glb<>uid://crorcwmeo0pli::::res://assets/model/overworld/environments/Kenney/GLB format/flowers.glb<>uid://b1vrkrb47h8xh::::res://assets/model/overworld/environments/Kenney/GLB format/grass.glb<>uid://bgctj2svvqfok::::res://assets/model/overworld/environments/Kenney/GLB format/heart.glb<>uid://s41p0ff228c5::::res://assets/model/overworld/environments/Kenney/GLB format/hedge-corner.glb<>uid://dgnl01dnn7h4a::::res://assets/model/overworld/environments/Kenney/GLB format/hedge.glb<>uid://c7ag71o724ky0::::res://assets/model/overworld/environments/Kenney/GLB format/jewel.glb<>uid://cbfkle63irg87::::res://assets/model/overworld/environments/Kenney/GLB format/key.glb<>uid://dcml648e8jnl4::::res://assets/model/overworld/environments/Kenney/GLB format/ladder-broken.glb<>uid://5ltw7nh4pax0::::res://assets/model/overworld/environments/Kenney/GLB format/ladder-long.glb<>uid://cglf23c86tspf::::res://assets/model/overworld/environments/Kenney/GLB format/ladder.glb<>uid://dtjmknvvsjfn5::::res://assets/model/overworld/environments/Kenney/GLB format/lever.glb<>uid://bsdwrbofdtcsy::::res://assets/model/overworld/environments/Kenney/GLB format/lock.glb<>uid://bx0kvqbdvvchw::::res://assets/model/overworld/environments/Kenney/GLB format/mushrooms.glb<>uid://b14icxukkl0ll::::res://assets/model/overworld/environments/Kenney/GLB format/plant.glb<>uid://bdplu4igs8vhl::::res://assets/model/overworld/environments/Kenney/GLB format/platform-fortified.glb<>uid://ugl3krfyd25j::::res://assets/model/overworld/environments/Kenney/GLB format/platform-overhang.glb<>uid://dp1w7sl2ts3f4::::res://assets/model/overworld/environments/Kenney/GLB format/platform-ramp.glb<>uid://n31o7be2ehs5::::res://assets/model/overworld/environments/Kenney/GLB format/platform.glb<>uid://c1jxyx3ltsjbb::::res://assets/model/overworld/environments/Kenney/GLB format/poles.glb<>uid://lqryd1akcceh::::res://assets/model/overworld/environments/Kenney/GLB format/rocks.glb<>uid://d1yrr1y0ga71u::::res://assets/model/overworld/environments/Kenney/GLB format/saw.glb<>uid://bxia0jwxry8jg::::res://assets/model/overworld/environments/Kenney/GLB format/sign.glb<>uid://kaqbep6yx1wa::::res://assets/model/overworld/environments/Kenney/GLB format/spike-block-wide.glb<>uid://7ro4baotp4ka::::res://assets/model/overworld/environments/Kenney/GLB format/spike-block.glb<>uid://dge4o2yxf51ra::::res://assets/model/overworld/environments/Kenney/GLB format/stones.glb<>uid://de1knt4ui107l::::res://assets/model/overworld/environments/Kenney/GLB format/trap-spikes-large.glb<>uid://cp227efximwiy::::res://assets/model/overworld/environments/Kenney/GLB format/trap-spikes.glb<>uid://qso5c0ohpspk::::res://assets/model/overworld/environments/Kenney/GLB format/tree-pine-small.glb<>uid://dm6v623f2fhuw::::res://assets/model/overworld/environments/Kenney/GLB format/tree-pine-snow-small.glb<>uid://bua6ocx3t8y3::::res://assets/model/overworld/environments/Kenney/GLB format/tree-pine-snow.glb<>uid://2q7lgby5sfrp::::res://assets/model/overworld/environments/Kenney/GLB format/tree-pine.glb<>uid://dor20kdtynxdq::::res://assets/model/overworld/environments/Kenney/GLB format/tree-snow.glb<>uid://cur3guxlutmn5::::res://assets/model/overworld/environments/Kenney/GLB format/tree.glb
+OverworldObject2D.tscn::PackedScene::5733729902954545211::1738496723::0::1::::<><>::res://code/overworld/OverworldObject2D.gd<>uid://ibw37028yh8::::res://assets/sprite/overworld/player.png<>uid://8tltawqgmh34::::res://assets/sound/common/noMove.wav
+Test-Room.tscn::PackedScene::154005463546199435::1738496723::0::1::::<><>::uid://bcqfk3dxv7agi::::res://assets/model/overworld/test/standard-6.tres<>res://code/overworld/exit.gd<>uid://cnxpxua3472hr::::res://scenes/OverworldObject2D.tscn
+Test-Tiles-overworld.tscn::PackedScene::4364426591741936769::1738496724::0::1::::<><>::
+Test-Tiles.tscn::PackedScene::1289507306520600717::1738496722::0::1::::<><>::
+Test-World.tscn::PackedScene::8640142009776193754::1738496811::0::1::::<><>::uid://bcqfk3dxv7agi::::res://assets/model/overworld/test/standard-6.tres<>uid://cnxpxua3472hr::::res://scenes/OverworldObject2D.tscn<>res://code/shaders/pixelart.gdshader
