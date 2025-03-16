@@ -1,9 +1,9 @@
 [gd_scene load_steps=11 format=3 uid="uid://dvdl42klkr8ve"]
 
-[ext_resource type="MeshLibrary" uid="uid://bcqfk3dxv7agi" path="res://assets/model/overworld/test/standard-6.tres" id="1_1txsj"]
+[ext_resource type="MeshLibrary" uid="uid://bcqfk3dxv7agi" path="res://assets/model/overWorld/test/standard-6.tres" id="1_1txsj"]
 [ext_resource type="PackedScene" uid="uid://cnxpxua3472hr" path="res://scenes/OverworldObject2D.tscn" id="2_mmqih"]
-[ext_resource type="Shader" path="res://code/shaders/pixelart.gdshader" id="3_xf5e4"]
-[ext_resource type="Script" path="res://code/overworld/entry.gd" id="4_ws56t"]
+[ext_resource type="Shader" uid="uid://bjrbq14jbmi77" path="res://code/shaders/pixelart.gdshader" id="3_xf5e4"]
+[ext_resource type="Script" uid="uid://ddkm2apk2vypk" path="res://code/overworld/entry.gd" id="4_ws56t"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_6w3y6"]
 sky_top_color = Color(0.501666, 0.431012, 0.406307, 1)

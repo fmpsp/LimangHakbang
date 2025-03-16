@@ -1,8 +1,8 @@
 [gd_scene load_steps=19 format=3 uid="uid://cnxpxua3472hr"]
 
-[ext_resource type="Script" path="res://code/overworld/OverworldObject2D.gd" id="2"]
-[ext_resource type="Texture2D" uid="uid://ibw37028yh8" path="res://assets/sprite/overworld/player.png" id="2_bao6j"]
-[ext_resource type="AudioStream" uid="uid://8tltawqgmh34" path="res://assets/sound/common/noMove.wav" id="3"]
+[ext_resource type="Script" uid="uid://twfkfs13wq6r" path="res://code/overworld/OverworldObject2D.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://wnyuopj1cmh6" path="res://assets/sprite/overworld/player.png" id="2_bao6j"]
+[ext_resource type="AudioStream" uid="uid://q3nbxsohdytg" path="res://assets/sound/common/noMove.wav" id="3"]
 
 [sub_resource type="Animation" id="1"]
 resource_name = "Idle0"
@@ -529,19 +529,19 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ebups"]
 _data = {
-"Idle0": SubResource("1"),
-"Idle1": SubResource("2"),
-"Idle2": SubResource("3"),
-"Idle3": SubResource("4"),
-"RESET": SubResource("Animation_i8tpd"),
-"Run0": SubResource("5"),
-"Run1": SubResource("6"),
-"Run2": SubResource("7"),
-"Run3": SubResource("8"),
-"Walk0": SubResource("9"),
-"Walk1": SubResource("10"),
-"Walk2": SubResource("11"),
-"Walk3": SubResource("12")
+&"Idle0": SubResource("1"),
+&"Idle1": SubResource("2"),
+&"Idle2": SubResource("3"),
+&"Idle3": SubResource("4"),
+&"RESET": SubResource("Animation_i8tpd"),
+&"Run0": SubResource("5"),
+&"Run1": SubResource("6"),
+&"Run2": SubResource("7"),
+&"Run3": SubResource("8"),
+&"Walk0": SubResource("9"),
+&"Walk1": SubResource("10"),
+&"Walk2": SubResource("11"),
+&"Walk3": SubResource("12")
 }
 
 [sub_resource type="CapsuleShape3D" id="13"]

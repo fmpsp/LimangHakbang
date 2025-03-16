@@ -1,5 +1,6 @@
 res://default_env.tres
-res://scenes/Test-Room.tscn
-res://code/shaders/pixelart.gdshader
+res://scenes/main-menu.tscn
 res://assets/model/overWorld/test/standard-6.tres
+res://code/shaders/pixelart.gdshader
 res://scenes/Test-Tiles-overworld.tscn
+res://scenes/Test-Room.tscn

@@ -1,4 +1,6 @@
-[gd_scene load_steps=23 format=4 uid="uid://b3gfp6mwtrqu8"]
+[gd_scene load_steps=27 format=4 uid="uid://b3gfp6mwtrqu8"]
+
+[ext_resource type="Texture2D" uid="uid://exyjl8ctlicf" path="res://assets/model/textures/wall.png" id="1_b0pmp"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ju16"]
 albedo_color = Color(0.830335, 0.830335, 0.830335, 1)
@@ -30,6 +32,11 @@ center_offset = Vector3(0, 1, 0)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_orggx"]
 size = Vector3(2, 2, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_03imk"]
+cull_mode = 2
+albedo_texture = ExtResource("1_b0pmp")
+texture_filter = 0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_si2mx"]
 cull_mode = 2
@@ -68,6 +75,16 @@ _surfaces = [{
 "vertex_count": 6,
 "vertex_data": PackedByteArray("AACAPwAAgL8AAIC/AACAPwAAgL8AAIA/AACAPwAAgD8AAIC/AACAPwAAgL8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIC/////f/////////9//////////3//////////f/////////9//////////3//////")
 }]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rcpvy"]
+cull_mode = 2
+albedo_texture = ExtResource("1_b0pmp")
+texture_filter = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xrusn"]
+cull_mode = 2
+albedo_texture = ExtResource("1_b0pmp")
+texture_filter = 0
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_bif1i"]
 size = Vector3(2, 2, 2)
@@ -126,6 +143,7 @@ shape = SubResource("BoxShape3D_orggx")
 
 [node name="Wall" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0)
+material_override = SubResource("StandardMaterial3D_03imk")
 mesh = SubResource("PlaneMesh_ivt2a")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Wall"]
@@ -136,6 +154,8 @@ shape = SubResource("BoxShape3D_nb6cp")
 [node name="Wall Corner" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
 mesh = SubResource("ArrayMesh_i1xkd")
+surface_material_override/0 = SubResource("StandardMaterial3D_rcpvy")
+surface_material_override/1 = SubResource("StandardMaterial3D_xrusn")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Wall Corner"]
 

@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cguphj6facl4"]
 
 [ext_resource type="MeshLibrary" uid="uid://bcqfk3dxv7agi" path="res://assets/model/overWorld/test/standard-6.tres" id="1_15dyn"]
-[ext_resource type="Script" path="res://code/overworld/exit.gd" id="2_6uvx4"]
+[ext_resource type="Script" uid="uid://cmf3ptd2lgm6m" path="res://code/overworld/exit.gd" id="2_6uvx4"]
 [ext_resource type="PackedScene" uid="uid://cnxpxua3472hr" path="res://scenes/OverworldObject2D.tscn" id="3_lm83d"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_oe184"]
