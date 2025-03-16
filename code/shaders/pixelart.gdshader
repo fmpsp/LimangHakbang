@@ -68,4 +68,3 @@ void fragment() {
 	ALBEDO = quantized_color * depth_outline * (1.0 + normal_outline);
 	//ALBEDO = texture(normal_texture, uv).rgb;
 }
-
