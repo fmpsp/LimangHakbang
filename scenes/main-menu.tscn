@@ -9,7 +9,9 @@
 bg_color = Color(0, 0, 0, 1)
 
 [sub_resource type="Gradient" id="Gradient_xg1py"]
-colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+offsets = PackedFloat32Array(0, 0.3, 0.5, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+metadata/_snap_enabled = true
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0u6b5"]
 bg_color = Color(0, 0, 0, 0)
@@ -50,6 +52,7 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_u4kki")
 
 [node name="Footstep Particles" type="CPUParticles2D" parent="Panel"]
 position = Vector2(640, 360)
+emitting = false
 amount = 5
 texture = ExtResource("4_xg1py")
 lifetime = 1.32
