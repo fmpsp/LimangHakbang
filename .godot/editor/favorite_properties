@@ -1,0 +1,11 @@
+[Label]
+
+properties=PackedStringArray("theme_override_font_sizes/font_size")
+
+[Button]
+
+properties=PackedStringArray("theme_override_font_sizes/font_size")
+
+[Control]
+
+properties=PackedStringArray("theme")

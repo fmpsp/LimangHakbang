@@ -1,0 +1,25 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://cxqlaqco2bqkl"]
+
+[ext_resource type="FontFile" uid="uid://dycqw2cqap7dg" path="res://assets/fonts/PearSoda.ttf" id="1_hfn1p"]
+[ext_resource type="StyleBox" uid="uid://4ee8njnkrwad" path="res://code/internal/themes/button.tres" id="2_d31kw"]
+[ext_resource type="FontFile" uid="uid://da1msqegnvu50" path="res://assets/fonts/GrapeSoda.ttf" id="2_w5jkm"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hfn1p"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+
+[resource]
+default_font = ExtResource("2_w5jkm")
+default_font_size = 24
+Button/font_sizes/font_size = 24
+Button/fonts/font = ExtResource("1_hfn1p")
+Button/styles/normal = ExtResource("2_d31kw")
+Panel/styles/panel = SubResource("StyleBoxFlat_hfn1p")
+RichTextLabel/font_sizes/bold_font_size = 32
+RichTextLabel/font_sizes/bold_italics_font_size = 32
+RichTextLabel/font_sizes/italics_font_size = 32
+RichTextLabel/font_sizes/normal_font_size = 32
+RichTextLabel/fonts/normal_font = ExtResource("2_w5jkm")
