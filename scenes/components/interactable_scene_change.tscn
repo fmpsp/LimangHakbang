@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bp4pphvhqkxa4"]
+
+[ext_resource type="Script" uid="uid://cmf3ptd2lgm6m" path="res://code/overworld/interactableSceneChange.gd" id="1_b7khv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_oe184"]
+size = Vector3(0.689697, 2, 2.00391)
+
+[node name="interactableSceneChange" type="Area3D"]
+script = ExtResource("1_b7khv")
+scene = "uid://dvdl42klkr8ve"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.224972, 1, 1)
+shape = SubResource("BoxShape3D_oe184")

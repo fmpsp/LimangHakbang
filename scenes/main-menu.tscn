@@ -1,9 +1,9 @@
 [gd_scene load_steps=12 format=3 uid="uid://cwhqe0a38llke"]
 
 [ext_resource type="Script" uid="uid://c1uppygw6u1hs" path="res://code/internal/main_menu.gd" id="1_hf3n6"]
-[ext_resource type="Texture2D" uid="uid://bejw5toeg4rki" path="res://icon.png" id="1_rk22q"]
-[ext_resource type="FontFile" uid="uid://da1msqegnvu50" path="res://assets/fonts/GrapeSoda.ttf" id="2_u4kki"]
-[ext_resource type="Texture2D" uid="uid://i08nytp607rq" path="res://assets/imgs/footprint.png" id="4_xg1py"]
+[ext_resource type="Texture2D" uid="uid://dsv0i5tygyodb" path="res://icon.png" id="1_rk22q"]
+[ext_resource type="FontFile" uid="uid://cf5xiylhjw4fq" path="res://assets/fonts/GrapeSoda.ttf" id="2_u4kki"]
+[ext_resource type="Texture2D" uid="uid://dx8qf3kwonitg" path="res://assets/imgs/footprint.png" id="4_xg1py"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u4kki"]
 bg_color = Color(0, 0, 0, 1)
@@ -113,8 +113,9 @@ theme_override_font_sizes/font_size = 48
 text = "Limang Hakbang"
 horizontal_alignment = 1
 
-[node name="VSeparator" type="VSeparator" parent="Panel/VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="Panel/VBoxContainer"]
 layout_mode = 2
+theme_override_constants/separation = 5
 theme_override_styles/separator = SubResource("StyleBoxEmpty_hf3n6")
 
 [node name="Buttons" type="VBoxContainer" parent="Panel/VBoxContainer"]

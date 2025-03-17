@@ -1,6 +1,6 @@
 [Label]
 
-properties=PackedStringArray("theme_override_font_sizes/font_size")
+properties=PackedStringArray("theme_override_font_sizes/font_size", "theme_override_fonts/font")
 
 [Button]
 

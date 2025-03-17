@@ -1,10 +1,10 @@
 [gd_resource type="MeshLibrary" load_steps=43 format=4 uid="uid://dip8aj4t2ou2n"]
 
-[ext_resource type="Texture2D" uid="uid://llj40s2e50ju" path="res://assets/model/textures/area1wall.png" id="1_7xj6n"]
-[ext_resource type="Texture2D" uid="uid://d0168vfnb50b3" path="res://assets/model/textures/stairs.png" id="2_gkhbf"]
-[ext_resource type="Texture2D" uid="uid://denmshipo1vq0" path="res://assets/model/textures/floorarea1.png" id="3_bagfm"]
-[ext_resource type="Texture2D" uid="uid://d3q0xybjyk6ny" path="res://assets/model/textures/wall.png" id="4_4ijgq"]
-[ext_resource type="Texture2D" uid="uid://y052rbh3bi61" path="res://assets/model/textures/door.png" id="5_yixb4"]
+[ext_resource type="Texture2D" uid="uid://c1t2otb1uuch2" path="res://assets/model/textures/area1wall.png" id="1_7xj6n"]
+[ext_resource type="Texture2D" uid="uid://c2g8uqveqclrg" path="res://assets/model/textures/stairs.png" id="2_gkhbf"]
+[ext_resource type="Texture2D" uid="uid://bkpwjyenlvyx7" path="res://assets/model/textures/floorarea1.png" id="3_bagfm"]
+[ext_resource type="Texture2D" uid="uid://exyjl8ctlicf" path="res://assets/model/textures/wall.png" id="4_4ijgq"]
+[ext_resource type="Texture2D" uid="uid://k2vvb0bpgujv" path="res://assets/model/textures/door.png" id="5_yixb4"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ju16"]
 albedo_color = Color(0.830335, 0.830335, 0.830335, 1)
@@ -267,4 +267,4 @@ item/6/navigation_layers = 1
 item/6/preview = SubResource("ImageTexture_p4aqi")
 script = SubResource("GDScript_rqlfe")
 collisionType = Array[int]([1, 2, 1, 1, 1, 4, 4])
-tileHeight = Array[float]([])
+tileHeight = Array[float]([0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0])

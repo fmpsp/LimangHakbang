@@ -1,9 +1,9 @@
 [gd_resource type="MeshLibrary" load_steps=42 format=4 uid="uid://bcqfk3dxv7agi"]
 
-[ext_resource type="Texture2D" uid="uid://v4113arcmt73" path="res://assets/model/textures/texture.png" id="1_7y260"]
-[ext_resource type="Texture2D" uid="uid://dc3sgwmg5s0uk" path="res://assets/model/textures/housewall.png" id="1_k0k0j"]
-[ext_resource type="Texture2D" uid="uid://d3q0xybjyk6ny" path="res://assets/model/textures/wall.png" id="2_ijgu6"]
-[ext_resource type="Texture2D" uid="uid://y052rbh3bi61" path="res://assets/model/textures/door.png" id="3_ecwos"]
+[ext_resource type="Texture2D" uid="uid://deb80ipgnf11c" path="res://assets/model/textures/texture.png" id="1_7y260"]
+[ext_resource type="Texture2D" uid="uid://dafcb4q5px2nq" path="res://assets/model/textures/housewall.png" id="1_k0k0j"]
+[ext_resource type="Texture2D" uid="uid://exyjl8ctlicf" path="res://assets/model/textures/wall.png" id="2_ijgu6"]
+[ext_resource type="Texture2D" uid="uid://k2vvb0bpgujv" path="res://assets/model/textures/door.png" id="3_ecwos"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ju16"]
 albedo_color = Color(0.830335, 0.830335, 0.830335, 1)
