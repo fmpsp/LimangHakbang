@@ -33,7 +33,7 @@ var yLayer = 0
 var dirFacing = FACING_VALUES.DOWN
 var lastDirFacing = dirFacing
 
-const walkSpeed = 4
+const walkSpeed = 2
 const runSpeed = walkSpeed*2
 const quickTurnMargin = 0.25/3
 #speed of movement in current direction
@@ -151,8 +151,6 @@ func _process(delta):
 			rotateYAxis(interactCast, 0)
 		FACING_VALUES.RIGHT:
 			rotateYAxis(interactCast, -PI/2)
-	var celId = world.get_cell_item(Vector3i(posTile.x, posTile.y, posTile.z))
-	print(world.mesh_library.collisionType[celId])
 
 func _physics_process(_delta):
 	# USE A RAYCAST TO "SNAP" TO FLOOR POSITION INSTEAD OF LERPING TO ALLOW FOR ACCURATE COLLISION
@@ -172,11 +170,14 @@ func _physics_process(_delta):
 	if %interactCast.is_colliding():
 		var target = %interactCast.get_collider()
 		if target.has_method("interact"):
-			%interactText.show()
+			%noticeUI.show()
 			if Input.is_action_just_pressed("interact"):
 				target.interact()
 	else:
-		%interactText.hide()
+		%noticeUI.hide()
+	#var checkTile = posTile + FACING_TO_OFFSET[dirFacing]
+	#var celId = world.get_cell_item(Vector3i(checkTile.x, checkTile.y, checkTile.z))
+	#print(world.mesh_library.collisionType[celId])
 
 func isFacingTileSolid():
 	#check for walls
@@ -187,12 +188,12 @@ func isFacingTileSolid():
 	var celId = world.get_cell_item(Vector3i(checkTile.x, checkTile.y, checkTile.z))
 	match tileDefs.collisionType[celId]:
 		gridHelper.TYPES.INVALID:
+			print("not solid")
 			pass
 		gridHelper.TYPES.SOLID:
+			print("solid")
 			return true
 		gridHelper.TYPES.SLOPE:
-			#print(gridHelper.ORTHO_TO_INDEX[dirFacing])
-			#print(world.get_cell_item_orientation(checkTile.x, checkTile.y, checkTile.z))
 			if gridHelper.ORTHO_TO_INDEX[FACING_INVERSE[dirFacing]] != world.get_cell_item_orientation(Vector3i(checkTile.x, checkTile.y, checkTile.z)):
 				return true
 	
@@ -215,6 +216,7 @@ func isFacingTileSolid():
 		else:
 			return true
 	return false
+	
 
 func hasPlayerInvokedMove():
 	if Input.is_action_pressed("overworld_up") or Input.is_action_pressed("overworld_down") or Input.is_action_pressed("overworld_left") or Input.is_action_pressed("overworld_right"):

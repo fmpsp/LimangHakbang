@@ -1,7 +1,7 @@
 [gd_scene load_steps=18 format=3 uid="uid://btv1bq4hta08g"]
 
 [ext_resource type="Script" uid="uid://twfkfs13wq6r" path="res://code/overworld/player.gd" id="1_t8du4"]
-[ext_resource type="Texture2D" uid="uid://wnyuopj1cmh6" path="res://assets/sprite/overworld/player.png" id="2_qk0ml"]
+[ext_resource type="Texture2D" uid="uid://c7elflg0uhi60" path="res://assets/sprite/overworld/player.png" id="2_qk0ml"]
 
 [sub_resource type="Animation" id="1"]
 resource_name = "Idle0"

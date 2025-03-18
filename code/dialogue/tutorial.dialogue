@@ -1,0 +1,4 @@
+~ start
+[wait=0.5][speed=0.5]Gamitin ang W, A, S, and D keys para humakbang PATAAS, PABABA, PAKALIWA, and PAKANAN.[next=4]
+[wait=0.5][speed=0.5]Gamitin ang E key para gumamit ng mga bagay-bagay. [next=4]
+=> END

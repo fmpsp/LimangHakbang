@@ -1,10 +1,10 @@
 [gd_resource type="MeshLibrary" load_steps=43 format=4 uid="uid://dip8aj4t2ou2n"]
 
-[ext_resource type="Texture2D" uid="uid://c1t2otb1uuch2" path="res://assets/model/textures/area1wall.png" id="1_7xj6n"]
-[ext_resource type="Texture2D" uid="uid://c2g8uqveqclrg" path="res://assets/model/textures/stairs.png" id="2_gkhbf"]
-[ext_resource type="Texture2D" uid="uid://bkpwjyenlvyx7" path="res://assets/model/textures/floorarea1.png" id="3_bagfm"]
-[ext_resource type="Texture2D" uid="uid://exyjl8ctlicf" path="res://assets/model/textures/wall.png" id="4_4ijgq"]
-[ext_resource type="Texture2D" uid="uid://k2vvb0bpgujv" path="res://assets/model/textures/door.png" id="5_yixb4"]
+[ext_resource type="Texture2D" uid="uid://u28ew12csl0n" path="res://assets/model/textures/environments/wall/area1wall.png" id="1_7xj6n"]
+[ext_resource type="Texture2D" uid="uid://dst533kbsekdr" path="res://assets/model/textures/environments/stairs.png" id="2_gkhbf"]
+[ext_resource type="Texture2D" uid="uid://b0iqn4xf45qhh" path="res://assets/model/textures/environments/floorarea1.png" id="3_bagfm"]
+[ext_resource type="Texture2D" uid="uid://csn7ba1dkwx04" path="res://assets/model/textures/environments/wall/wall.png" id="4_4ijgq"]
+[ext_resource type="Texture2D" uid="uid://bx5fsqd0fgm8a" path="res://assets/model/textures/environments/door.png" id="5_yixb4"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ju16"]
 albedo_color = Color(0.830335, 0.830335, 0.830335, 1)

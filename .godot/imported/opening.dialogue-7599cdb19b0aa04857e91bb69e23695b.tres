@@ -20,18 +20,53 @@ lines = {
 &"character": "???",
 &"id": "1",
 &"next_id": "2",
-&"text": "[speed=0.3]Gumagapang noong una,[wait=1.25] gumagapang nang walang nalalalaman.",
+&"text": "[speed=0.3]Gumagapang,[wait=1.25] noong una,[wait=1.25] gumagapang nang walang nalalalaman. [next=3]",
 &"type": "dialogue"
 },
 "10": {
+&"character": "???",
 &"id": "10",
+&"next_id": "11",
+&"text": "[speed=0.3]Ngunit hindi,[wait=1] kung ganoon lamang kadali ang buhay.[next=3]",
+&"type": "dialogue"
+},
+"11": {
+&"character": "???",
+&"id": "11",
+&"next_id": "12",
+&"text": "[speed=0.3]Ang mga lumalayo sa hamon nito ay kanyang ibabalik,[wait=1] kakaladkarin pabalik sa lahat ng nakakapagod,[wait=1] at nakakagalit.[next=3]",
+&"type": "dialogue"
+},
+"12": {
+&"character": "???",
+&"id": "12",
+&"next_id": "13",
+&"text": "[speed=0.3]Ano pa ba ang magagawa?[next=3]",
+&"type": "dialogue"
+},
+"13": {
+&"character": "???",
+&"id": "13",
+&"next_id": "14",
+&"text": "[speed=0.3]Ano pa ba ang kayang gawin?[next=3]",
+&"type": "dialogue"
+},
+"14": {
+&"character": "???",
+&"id": "14",
+&"next_id": "15",
+&"text": "[speed=0.3]Kung hahadlangin ka lamang sa bawat hakbang,[wait=1.25][speed=0.8] paano ka...[wait=1.25] makakausad?[next=3]",
+&"type": "dialogue"
+},
+"15": {
+&"id": "15",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"11": {
-&"id": "11",
+"16": {
+&"id": "16",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
@@ -41,68 +76,73 @@ lines = {
 &"character": "???",
 &"id": "2",
 &"next_id": "3",
-&"text": "[speed=0.3]Gayunpaman,[wait=1] kahit wala pang nalalaman,[wait=1] magagawang gumapang,[wait=1] hangga't matuto tungkol sa mundo.",
+&"text": "[speed=0.3]Gayunpaman,[wait=1] kahit wala pang nalalaman,[wait=1] magagawang gumapang.[next=3]",
 &"type": "dialogue"
 },
 "3": {
 &"character": "???",
 &"id": "3",
 &"next_id": "4",
-&"text": "[speed=0.3]Gamit kutob at damdamin, nagawa ring matuto.",
+&"text": "[speed=0.3]Gagapang hangga't matuto tungkol sa mundo.[next=3]",
 &"type": "dialogue"
 },
 "4": {
 &"character": "???",
 &"id": "4",
 &"next_id": "5",
-&"text": "[speed=0.3]Akala'y maitataboy ang mga nagbibigay-dusa sa pamamagitan ng pag-iwas nito,[wait=1] sa paglakad,[wait=1] sa pagtakbo.",
+&"text": "[speed=0.3]Gayun nga,[wait=1] gamit kutob at damdamin, nagawa ring matuto.[next=3]",
 &"type": "dialogue"
 },
 "5": {
 &"character": "???",
 &"id": "5",
 &"next_id": "6",
-&"text": "[speed=0.3]Ngunit malupit ang buhay.",
+&"text": "[speed=0.3]Natutong magsaya,[wait=1] natutong malungkot,[wait=1] natutong masaktan.[next=3]",
 &"type": "dialogue"
 },
 "6": {
 &"character": "???",
 &"id": "6",
 &"next_id": "7",
-&"text": "[speed=0.3]Ang mga lumalayo sa hamon nito ay kanyang ibabalik,[wait=1] kakaladkarin pabalik sa lahat ng ikinagagalit.",
+&"text": "[speed=0.3]Ngunit,[wait=1] sa papatong-patong na karanasan...[next=3]",
 &"type": "dialogue"
 },
 "7": {
 &"character": "???",
 &"id": "7",
 &"next_id": "8",
-&"text": "[speed=0.3]Ano pa ba ang magagawa?",
+&"text": "[speed=0.3]Isang kakaibang realisasyon,[wait=1] na kahit ano man ang gawin,[wait=1] hindi maiiwasang masaktan.[next=3]",
 &"type": "dialogue"
 },
 "8": {
 &"character": "???",
 &"id": "8",
 &"next_id": "9",
-&"text": "[speed=0.3]Ano pa ba ang kayang gawin?",
+&"text": "[speed=0.3]Bagama't natutong dumamdam ng matatamis na ligaya,[wait=1] ang pighati ng pagkabigo ay tila nakawawasak ng mundo.[next=3]",
 &"type": "dialogue"
 },
 "9": {
 &"character": "???",
 &"id": "9",
 &"next_id": "10",
-&"text": "[speed=0.3]Kung hahadlangin ka lamang sa bawat hakbang,[wait=1.25][speed=0.8] paano ka...[wait=1.25] makakausad?",
+&"text": "[speed=0.3]Akala'y maitataboy ang mga nagbibigay-dusa,[wait=1] sa pag-iwas ng mga ito,[wait=1] sa paglakad,[wait=1] sa pagtakbo palayo.[next=3]",
 &"type": "dialogue"
 }
 }
 raw_text = "~ start
-???: [speed=0.3]Gumagapang noong una,[wait=1.25] gumagapang nang walang nalalalaman.
-???: [speed=0.3]Gayunpaman,[wait=1] kahit wala pang nalalaman,[wait=1] magagawang gumapang,[wait=1] hangga't matuto tungkol sa mundo.
-???: [speed=0.3]Gamit kutob at damdamin, nagawa ring matuto.
-???: [speed=0.3]Akala'y maitataboy ang mga nagbibigay-dusa sa pamamagitan ng pag-iwas nito,[wait=1] sa paglakad,[wait=1] sa pagtakbo.
-???: [speed=0.3]Ngunit malupit ang buhay.
-???: [speed=0.3]Ang mga lumalayo sa hamon nito ay kanyang ibabalik,[wait=1] kakaladkarin pabalik sa lahat ng ikinagagalit.
-???: [speed=0.3]Ano pa ba ang magagawa?
-???: [speed=0.3]Ano pa ba ang kayang gawin?
-???: [speed=0.3]Kung hahadlangin ka lamang sa bawat hakbang,[wait=1.25][speed=0.8] paano ka...[wait=1.25] makakausad?
+???: [speed=0.3]Gumagapang,[wait=1.25] noong una,[wait=1.25] gumagapang nang walang nalalalaman. [next=3]
+???: [speed=0.3]Gayunpaman,[wait=1] kahit wala pang nalalaman,[wait=1] magagawang gumapang.[next=3]
+???: [speed=0.3]Gagapang hangga't matuto tungkol sa mundo.[next=3]
+???: [speed=0.3]Gayun nga,[wait=1] gamit kutob at damdamin, nagawa ring matuto.[next=3]
+???: [speed=0.3]Natutong magsaya,[wait=1] natutong malungkot,[wait=1] natutong masaktan.[next=3]
+???: [speed=0.3]Ngunit,[wait=1] sa papatong-patong na karanasan...[next=3]
+???: [speed=0.3]Isang kakaibang realisasyon,[wait=1] na kahit ano man ang gawin,[wait=1] hindi maiiwasang masaktan.[next=3]
+???: [speed=0.3]Bagama't natutong dumamdam ng matatamis na ligaya,[wait=1] ang pighati ng pagkabigo ay tila nakawawasak ng mundo.[next=3]
+???: [speed=0.3]Akala'y maitataboy ang mga nagbibigay-dusa,[wait=1] sa pag-iwas ng mga ito,[wait=1] sa paglakad,[wait=1] sa pagtakbo palayo.[next=3]
+???: [speed=0.3]Ngunit hindi,[wait=1] kung ganoon lamang kadali ang buhay.[next=3]
+???: [speed=0.3]Ang mga lumalayo sa hamon nito ay kanyang ibabalik,[wait=1] kakaladkarin pabalik sa lahat ng nakakapagod,[wait=1] at nakakagalit.[next=3]
+???: [speed=0.3]Ano pa ba ang magagawa?[next=3]
+???: [speed=0.3]Ano pa ba ang kayang gawin?[next=3]
+???: [speed=0.3]Kung hahadlangin ka lamang sa bawat hakbang,[wait=1.25][speed=0.8] paano ka...[wait=1.25] makakausad?[next=3]
 => END"
 metadata/dialogue_manager_version = "3.4.0"

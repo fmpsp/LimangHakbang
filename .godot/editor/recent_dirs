@@ -1,8 +1,9 @@
-res://assets/model/overWorld/test
-res://scenes/components
-res://scenes
-res://code/internal
 res://code/internal/themes
+res://scenes/components
+res://code/internal
+res://assets/model/environments
+res://assets/model/overWorld/test
+res://scenes
 res://assets/fonts
 res://
 res://code/overworld

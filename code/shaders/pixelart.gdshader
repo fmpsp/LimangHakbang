@@ -2,7 +2,7 @@ shader_type spatial;
 render_mode unshaded, fog_disabled;
 
 const vec2 target_resolution = vec2(320.0, 180.0);
-const float colors_per_channel = 8.0;
+const float colors_per_channel = 12.0;
 
 uniform sampler2D screen_texture: hint_screen_texture, filter_nearest;
 uniform sampler2D depth_texture: hint_depth_texture, filter_nearest;

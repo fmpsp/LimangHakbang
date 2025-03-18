@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://cvihqg4efs7cn"]
 
 [ext_resource type="Script" uid="uid://dnb0xxemdj01x" path="res://code/internal/splash_screen.gd" id="1_4gp4q"]
-[ext_resource type="Texture2D" uid="uid://dnxu6bxu7jo46" path="res://assets/imgs/FW studios.png" id="1_hsxvm"]
-[ext_resource type="FontFile" uid="uid://ylo4ihjxj1uy" path="res://assets/fonts/fabiolo-semibold.ttf" id="2_4gp4q"]
+[ext_resource type="Texture2D" uid="uid://8tcqd3bwba1q" path="res://assets/imgs/FW studios.png" id="1_hsxvm"]
+[ext_resource type="FontFile" uid="uid://dlawku4ufey3h" path="res://assets/fonts/fabiolo-semibold.ttf" id="2_4gp4q"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4nfk5"]
 bg_color = Color(0, 0, 0, 1)

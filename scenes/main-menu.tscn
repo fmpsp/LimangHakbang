@@ -1,9 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://cwhqe0a38llke"]
+[gd_scene load_steps=14 format=3 uid="uid://cwhqe0a38llke"]
 
 [ext_resource type="Script" uid="uid://c1uppygw6u1hs" path="res://code/internal/main_menu.gd" id="1_hf3n6"]
-[ext_resource type="Texture2D" uid="uid://dsv0i5tygyodb" path="res://icon.png" id="1_rk22q"]
-[ext_resource type="FontFile" uid="uid://cf5xiylhjw4fq" path="res://assets/fonts/GrapeSoda.ttf" id="2_u4kki"]
-[ext_resource type="Texture2D" uid="uid://dx8qf3kwonitg" path="res://assets/imgs/footprint.png" id="4_xg1py"]
+[ext_resource type="Texture2D" uid="uid://uje6mbcxsi1u" path="res://icon.png" id="1_rk22q"]
+[ext_resource type="FontFile" uid="uid://7m4p6q5fabd2" path="res://assets/fonts/GrapeSoda.ttf" id="2_u4kki"]
+[ext_resource type="Texture2D" uid="uid://chfmbk35rnce" path="res://assets/imgs/footprint.png" id="4_xg1py"]
+[ext_resource type="AudioStream" uid="uid://d32bcq6ipicxq" path="res://assets/audio/music/secretgreensteps.mp3" id="5_0u6b5"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u4kki"]
 bg_color = Color(0, 0, 0, 1)
@@ -30,6 +31,12 @@ default_font = ExtResource("2_u4kki")
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xg1py"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0u6b5"]
+
+[sub_resource type="AudioStreamInteractive" id="AudioStreamInteractive_0u6b5"]
+clip_count = 1
+clip_0/name = &"Secretgreensteps"
+clip_0/stream = ExtResource("5_0u6b5")
+clip_0/auto_advance = 0
 
 [node name="Main Menu" type="Control"]
 layout_mode = 3
@@ -146,6 +153,10 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_0u6b5")
 action_mode = 0
 text = "UMATRAS"
 flat = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamInteractive_0u6b5")
+autoplay = true
 
 [connection signal="pressed" from="Panel/VBoxContainer/Buttons/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Panel/VBoxContainer/Buttons/Quit" to="." method="_on_quit_pressed"]

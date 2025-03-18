@@ -1,12 +1,19 @@
-[gd_scene load_steps=4 format=3 uid="uid://cq6jiaqiwrmcx"]
+[gd_scene load_steps=7 format=3 uid="uid://cq6jiaqiwrmcx"]
 
 [ext_resource type="Script" uid="uid://c6it8dn34wayi" path="res://code/internal/op_scene.gd" id="1_2ojg0"]
-[ext_resource type="Texture2D" uid="uid://dx8qf3kwonitg" path="res://assets/imgs/footprint.png" id="2_hv3tk"]
+[ext_resource type="Texture2D" uid="uid://chfmbk35rnce" path="res://assets/imgs/footprint.png" id="2_hv3tk"]
+[ext_resource type="AudioStream" uid="uid://c3g70ygu0mk3u" path="res://assets/audio/music/slowslow.mp3" id="3_xuvwb"]
+[ext_resource type="AudioStream" uid="uid://dhwloiug8dgj8" path="res://assets/audio/music/roommeyou.mp3" id="5_ffhhy"]
 
 [sub_resource type="Gradient" id="Gradient_xuvwb"]
 offsets = PackedFloat32Array(0, 0.3, 0.5, 1)
 colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
 metadata/_snap_enabled = true
+
+[sub_resource type="AudioStreamPlaylist" id="AudioStreamPlaylist_a66ol"]
+stream_count = 2
+stream_0 = ExtResource("3_xuvwb")
+stream_1 = ExtResource("5_ffhhy")
 
 [node name="Screen" type="Control"]
 layout_mode = 3
@@ -46,3 +53,7 @@ angle_max = 250.4
 scale_amount_min = 0.1
 scale_amount_max = 0.3
 color_ramp = SubResource("Gradient_xuvwb")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamPlaylist_a66ol")
+autoplay = true

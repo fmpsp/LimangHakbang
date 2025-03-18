@@ -1,6 +1,6 @@
 class_name GridmapCollisionHelper
 
-enum TYPES {NONSOLID, SOLID, SLOPE, SLOPE_CORNER, ENTER, INVALID}
+enum TYPES {NONSOLID, SOLID, SLOPE, SLOPE_CORNER, INVALID}
 
 @export var collisionType : Array[int]
 @export var tileHeight : Array[float]
