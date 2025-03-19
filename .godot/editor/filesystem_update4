@@ -1,6 +1,0 @@
-res://default_env.tres
-res://scenes/test/end-world.tscn
-res://assets/model/overWorld/test/mesh.tres
-res://code/shaders/pixelart.gdshader
-res://assets/model/overWorld/test/grass.tres
-res://code/internal/themes/dialogue_theme.tres
