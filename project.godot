@@ -15,8 +15,10 @@ universal_fade/patterns_directory="res://addons/UniversalFade/Patterns"
 [application]
 
 config/name="Limang Hakbang"
+config/description="Isang maikling larong naglalarawan ng paglalakbay ng isang katauhan."
+config/version="2025.318.0"
 run/main_scene="uid://cvihqg4efs7cn"
-config/features=PackedStringArray("4.4")
+config/features=PackedStringArray("4.4", "C#")
 boot_splash/bg_color=Color(0, 0, 0, 1)
 boot_splash/show_image=false
 config/icon="res://icon.png"
@@ -31,11 +33,13 @@ SimpleGrass="*res://addons/simplegrasstextured/singleton.tscn"
 [dialogue_manager]
 
 runtime/balloon_path="res://code/dialogue/balloons/balloon.tscn"
+runtime/advanced/uses_dotnet=true
 
 [display]
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
+window/size/mode=3
 window/size/always_on_top=true
 window/stretch/mode="viewport"
 
