@@ -1,7 +1,7 @@
-[gd_scene load_steps=18 format=3 uid="uid://btv1bq4hta08g"]
+[gd_scene load_steps=18 format=3 uid="uid://weuny4r7nw4g"]
 
-[ext_resource type="Script" uid="uid://twfkfs13wq6r" path="res://code/overworld/player.gd" id="1_t8du4"]
-[ext_resource type="Texture2D" uid="uid://c7elflg0uhi60" path="res://assets/sprite/overworld/player.png" id="2_qk0ml"]
+[ext_resource type="Script" uid="uid://twfkfs13wq6r" path="res://code/overworld/player.gd" id="1_mlapy"]
+[ext_resource type="Texture2D" uid="uid://c7elflg0uhi60" path="res://assets/sprite/overworld/player.png" id="2_0fqda"]
 
 [sub_resource type="Animation" id="1"]
 resource_name = "Idle0"
@@ -549,7 +549,7 @@ height = 0.02
 
 [node name="Player" type="CharacterBody3D"]
 transform = Transform3D(16, 0, 0, 0, 16, 0, 0, 0, 16, 0, 0, 0)
-script = ExtResource("1_t8du4")
+script = ExtResource("1_mlapy")
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0.4, 0.77, 0)
@@ -561,7 +561,7 @@ shaded = true
 double_sided = false
 alpha_cut = 2
 texture_filter = 0
-texture = ExtResource("2_qk0ml")
+texture = ExtResource("2_0fqda")
 hframes = 6
 vframes = 4
 frame = 15
@@ -570,11 +570,6 @@ frame = 15
 libraries = {
 &"": SubResource("AnimationLibrary_ebups")
 }
-
-[node name="CameraTest" type="Camera3D" parent="."]
-transform = Transform3D(-1.62921e-07, -0.707191, 0.707191, 0, 0.707191, 0.707191, -1, 1.15216e-07, -1.15216e-07, 9, 11, 0)
-current = true
-fov = 50.0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -1.62921e-07, -1, 0, 1, -1.62921e-07, 0, 0.065, 0)

@@ -1,6 +1,6 @@
 extends AudioStreamPlayer
 
-@onready var audio_stream = $AudioStreamPlayer
+@onready var audio_stream = $"."
 @export var fade_time := 2
 const mute_db := -80.0
 

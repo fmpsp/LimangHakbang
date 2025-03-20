@@ -1,0 +1,12 @@
+[gd_resource type="PrismMesh" load_steps=3 format=3 uid="uid://gukosks3faey"]
+
+[ext_resource type="Texture2D" uid="uid://d3qwabr1e3jby" path="res://assets/model/textures/environments/floor/tile028.png" id="1_4cx3t"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cxu44"]
+albedo_texture = ExtResource("1_4cx3t")
+texture_filter = 0
+
+[resource]
+material = SubResource("StandardMaterial3D_cxu44")
+left_to_right = 0.0
+size = Vector3(2, 2, 2)

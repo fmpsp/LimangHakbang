@@ -1,0 +1,13 @@
+[gd_resource type="BoxMesh" load_steps=3 format=3 uid="uid://cegcq3d3vdnv0"]
+
+[ext_resource type="Texture2D" uid="uid://dmxn8jdihkovg" path="res://assets/model/textures/environments/floor/tile009.png" id="1_1ykv3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_arrlb"]
+transparency = 1
+albedo_color = Color(1, 1, 1, 0.294118)
+albedo_texture = ExtResource("1_1ykv3")
+texture_filter = 0
+
+[resource]
+material = SubResource("StandardMaterial3D_arrlb")
+size = Vector3(2, 2, 2)

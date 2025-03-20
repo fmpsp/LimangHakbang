@@ -20,10 +20,10 @@ const FACING_TO_OFFSET = [
 enum FACING_VALUES {DOWN, LEFT, UP, RIGHT, INVALID}
 const FACING_INVERSE = [FACING_VALUES.UP, FACING_VALUES.RIGHT, FACING_VALUES.DOWN, FACING_VALUES.LEFT, FACING_VALUES.INVALID]
 
-#last position in tile space
-var posTileLast = Vector3(0, 0, 0)
 #position in tile space
-var posTile = Vector3(0, 0, 0)
+@export var posTile = Vector3(0, 0, 0)
+#last position in tile space
+var posTileLast = posTile
 #global velocity
 var velTile = Vector3(0, 0, 0)
 #current "floor" in the map (also Y position in tile space
@@ -188,10 +188,8 @@ func isFacingTileSolid():
 	var celId = world.get_cell_item(Vector3i(checkTile.x, checkTile.y, checkTile.z))
 	match tileDefs.collisionType[celId]:
 		gridHelper.TYPES.INVALID:
-			print("not solid")
 			pass
 		gridHelper.TYPES.SOLID:
-			print("solid")
 			return true
 		gridHelper.TYPES.SLOPE:
 			if gridHelper.ORTHO_TO_INDEX[FACING_INVERSE[dirFacing]] != world.get_cell_item_orientation(Vector3i(checkTile.x, checkTile.y, checkTile.z)):

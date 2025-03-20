@@ -12,11 +12,10 @@ func _ready() -> void:
 	Engine.get_singleton("DialogueManager").dialogue_ended.connect(_on_monologue_end)
 	pass
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if dialogue_done:
 		if Input.is_action_just_pressed("menu"):
 			%"menu-options".show()
-	print(dialogue_done)
 
 
 func _on_resume_pressed() -> void:
@@ -26,6 +25,6 @@ func _on_quit_pressed() -> void:
 	await Fade.fade_out().finished
 	get_tree().quit()
 
-func _on_monologue_end(resource) -> void:
+func _on_monologue_end(_resource) -> void:
 	dialogue_done = true
 	pass

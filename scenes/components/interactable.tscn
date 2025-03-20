@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cswgt48i2luwi"]
+
+[ext_resource type="Script" uid="uid://cyatygu00q5q1" path="res://code/overworld/interactable.gd" id="1_4t2mx"]
+
+[node name="Interactable" type="Area3D"]
+script = ExtResource("1_4t2mx")

@@ -1,0 +1,12 @@
+[gd_resource type="PlaneMesh" load_steps=3 format=3 uid="uid://dbqvm5qp61guu"]
+
+[ext_resource type="Texture2D" uid="uid://c0o56fm1r50mq" path="res://assets/model/textures/environments/floor/tile021.png" id="1_t5x8g"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d7fat"]
+cull_mode = 2
+albedo_texture = ExtResource("1_t5x8g")
+texture_filter = 0
+
+[resource]
+material = SubResource("StandardMaterial3D_d7fat")
+center_offset = Vector3(0, 1, 0)

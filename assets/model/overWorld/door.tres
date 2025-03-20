@@ -1,0 +1,15 @@
+[gd_resource type="PlaneMesh" load_steps=2 format=3 uid="uid://duhdtnqim26i2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tkc73"]
+cull_mode = 2
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+rim_enabled = true
+backlight_enabled = true
+backlight = Color(1, 1, 1, 1)
+texture_filter = 0
+
+[resource]
+material = SubResource("StandardMaterial3D_tkc73")
+center_offset = Vector3(1, 0, 0)
+orientation = 0
